@@ -1,0 +1,137 @@
+.shop {
+  &-top {
+    text-align: center;
+    margin-top: 130px;
+
+    & h4 {
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 23px;
+      letter-spacing: 0.145em;
+      opacity: 60%;
+      color: $second-color;
+      text-transform: uppercase;
+    }
+
+    & h3 {
+      font-size: 44px;
+      font-weight: 600;
+      line-height: 71px;
+    }
+
+    & p {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      width: 457px;
+      opacity: 60%;
+      margin: 0 auto;
+    }
+  }
+
+  &-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+    & .top-left {
+      width: 360px;
+      height: 330px;
+      padding: 35px 35px;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+
+      & .del {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        & h5 {
+          opacity: 50%;
+          font-size: 14px;
+          font-weight: 300;
+          line-height: 27px;
+        }
+      }
+
+      & .products-img {
+        padding-top: 24px;
+        display: flex;
+        align-items: center;
+        gap: 70px;
+        padding: 28px 0;
+      }
+    }
+
+    & .top-center {
+      width: 360px;
+      height: 252px;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      margin-top: -80px;
+      padding: 18px 26px;
+    }
+
+    & .top-right {
+      width: 360px;
+      height: 432px;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      margin-top: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  &-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & .center {
+      width: 360px;
+      height: 252px;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: -150px;
+    }
+  }
+
+  & .shop-bottom-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+    & .bottom-left {
+      width: 360px;
+      height: 446px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      margin-top: -170px;
+    }
+
+    & .bottom-center {
+      width: 360px;
+      height: 252px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      margin-top: 20px;
+    }
+
+    & .bottom-right {
+      width: 360px;
+      height: 354px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      margin-top: -80px;
+    }
+  }
+}

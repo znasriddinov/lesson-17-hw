@@ -1,0 +1,38 @@
+.posts {
+  margin-top: 110px;
+  display: flex;
+  align-items: center;
+  gap: 37px;
+
+  & .left-box {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+    &-left {
+      width: 256px;
+
+      & h3 {
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 40px;
+      }
+
+      & p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        opacity: 60%;
+        margin-top: 9px;
+      }
+
+      & h4 {
+        margin-top: 20px;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 27px;
+        margin-bottom: 15px;
+      }
+    }
+  }
+}

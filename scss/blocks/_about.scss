@@ -1,0 +1,61 @@
+.about {
+  margin-top: 95px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 131px;
+
+  & .right-box {
+    & h4 {
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 23px;
+      letter-spacing: 0.145em;
+      color: $second-color;
+      text-transform: uppercase;
+      opacity: 60%;
+    }
+
+    & h3 {
+      font-size: 44px;
+      font-weight: 600;
+      line-height: 71px;
+    }
+
+    & .p1 {
+      margin-top: 115px;
+      width: 457px;
+      opacity: 60%;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+    }
+
+    & .p2 {
+      width: 457px;
+      margin-top: 32px;
+      opacity: 60%;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+    }
+
+    &-tittle {
+      margin-top: 40px;
+
+      & p {
+        display: flex;
+        align-items: center;
+        gap: 13px;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 27px;
+        margin-top: 20px;
+      }
+
+      & .p3 {
+        width: 375px;
+      }
+    }
+  }
+}

@@ -1,0 +1,79 @@
+.brands {
+  background-image: url("/imgs/header-img.png");
+  background-position: 584px 0;
+  background-repeat: no-repeat;
+  background-size: 611px 643px;
+  height: 631px;
+  margin-top: 54px;
+
+  &-left {
+    padding-top: 129px;
+    width: 713px;
+
+    & h3 {
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 26px;
+      letter-spacing: 0.145em;
+      text-transform: uppercase;
+      color: $second-color;
+      opacity: 60%;
+    }
+
+    & h1 {
+      font-size: 61px;
+      font-weight: 400;
+      line-height: 73px;
+      width: 545px;
+      margin-top: 3px;
+
+      & span {
+        font-size: 61px;
+        font-weight: 600;
+        line-height: 73px;
+        color: $primary-color;
+      }
+    }
+
+    & p {
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 27px;
+      width: 515px;
+      opacity: 60%;
+      margin-top: 29px;
+    }
+
+    & .button {
+      display: flex;
+      align-items: center;
+      margin-top: 36px;
+      gap: 31px;
+
+      & .btn {
+        background-color: $primary-color;
+        padding: 16px 35px;
+        color: #fff;
+        border: 1px solid transparent;
+        text-transform: uppercase;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 26px;
+        cursor: pointer;
+        transition: all 0.5s ease;
+      }
+
+      & .btn:hover {
+        background-color: #fff;
+        color: $primary-color;
+        border-color: $primary-color;
+      }
+
+      & h4 {
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 27px;
+      }
+    }
+  }
+}
